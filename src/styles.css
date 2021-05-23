@@ -13,11 +13,18 @@ h1 {
   font-size: 80px;
   letter-spacing: 0.047em;
   text-transform: uppercase;
+  line-height: 1.5;
 }
 
 h1:hover {
   color: var(--sunshine-color);
   cursor: pointer;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .hero {
@@ -56,4 +63,26 @@ h1:hover {
 
 .btn-branding:hover {
   background: var(--sunshine-color);
+}
+
+.photo-album-links {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .hero p {
+    font-size: 22px;
+  }
+  .photo-album-title {
+    margin-bottom: 40px;
+  }
 }
