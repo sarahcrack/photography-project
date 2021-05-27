@@ -47,6 +47,24 @@ p {
   font-size: 30px;
 }
 
+.about-hero {
+  padding: 100px 20px;
+}
+
+.about-hero h1 {
+  font-size: 64px;
+  line-height: 1;
+}
+
+.about-hero h2,
+p {
+  font-family: var(--default-font-family);
+}
+
+.about-hero-content {
+  margin: 30px;
+}
+
 .hello {
   font-size: 36px;
 }
@@ -84,5 +102,10 @@ p {
   }
   .photo-album-title {
     margin-bottom: 40px;
+  }
+
+  .about-hero {
+    text-align: center;
+    padding: 0;
   }
 }
