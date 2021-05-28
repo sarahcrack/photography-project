@@ -83,11 +83,6 @@ p {
   background: var(--sunshine-color);
 }
 
-.photo-album-links {
-  text-decoration: none;
-  color: black;
-}
-
 @media (max-width: 768px) {
   h1 {
     font-size: 44px;
