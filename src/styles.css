@@ -121,6 +121,34 @@ nav li.active a {
   color: var(--coral-color);
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--coral-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--coral-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--coral-color);
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 44px;
