@@ -59,7 +59,7 @@ p {
 }
 
 .content-container {
-  padding: 20px;
+  padding: 30px;
 }
 
 .content h1 {
@@ -151,6 +151,10 @@ footer .social-links a:hover {
 
 @media (max-width: 768px) {
   h1 {
+    font-size: 44px;
+  }
+
+  h2 {
     font-size: 44px;
   }
 
